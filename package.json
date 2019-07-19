@@ -1,0 +1,64 @@
+{
+  "name": "TCESP",
+  "version": "0.0.1",
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./src/fonts"
+    ]
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.1",
+    "accordion-collapse-react-native": "^0.1.9",
+    "axios": "^0.18.0",
+    "date-fns": "^1.30.1",
+    "ionicons": "^4.5.5",
+    "native-base": "^2.12.1",
+    "prop-types": "^15.7.2",
+    "react": "16.6.3",
+    "react-native": "0.58.6",
+    "react-native-autocomplete-input": "^4.0.0",
+    "react-native-autocomplete-select": "^1.0.0",
+    "react-native-btr": "^1.1.4",
+    "react-native-camera": "^2.9.0",
+    "react-native-check-box": "^2.1.7",
+    "react-native-elements": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-masked-text": "^1.12.2",
+    "react-native-material-textfield": "^0.12.0",
+    "react-native-picker-select": "^6.1.0",
+    "react-native-progressive-input": "^1.1.0",
+    "react-native-radio-button-group": "^1.0.2",
+    "react-native-radio-buttons-group": "^1.0.7",
+    "react-native-requests-logger": "^1.1.5",
+    "react-native-responsive-screen": "^1.2.2",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-search-filter": "^0.1.4",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-snap-carousel": "^3.8.0",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-video": "^4.4.1",
+    "react-native-web-swiper": "^1.14.0",
+    "react-native-youtube": "^1.1.0",
+    "rn-get-real-path": "0.0.2",
+    "xhr": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.3.1",
+    "jest": "24.3.1",
+    "metro-react-native-babel-preset": "0.53.0",
+    "react-redux": "^7.0.3",
+    "react-test-renderer": "16.6.3",
+    "redux": "^4.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
