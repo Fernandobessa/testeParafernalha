@@ -37,14 +37,9 @@ export default class RCTYouTubeExample extends React.Component {
             ref={component => {
               this._youTubeRef = component;
             }}
-            // You must have an API Key for the player to load in Android
+
             apiKey="AIzaSyB2qPOWZw7J7GJ5rRjpL_tkfi4shZckQaE"
-            // Un-comment one of videoId / videoIds / playlist.
-            // You can also edit these props while Hot-Loading in development mode to see how
-            // it affects the loaded native module
             videoId={this.props.id_play_video}
-            // videoIds={['HcXNPI-IPPM', 'XXlZfc1TrD0', 'czcjU1w-c6k', 'uMK0prafzw0']}
-            // playlistId="PLF797E961509B4EB5"
             play={this.state.isPlaying}
             loop={this.state.isLooping}
             fullscreen={this.state.fullscreen}

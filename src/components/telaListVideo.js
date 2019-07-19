@@ -16,7 +16,7 @@ import {
 } from "native-base";
 
 
-class login extends Component {
+class listVideo extends Component {
     constructor(props) {
         super(props);
         this.state = { text: '', videos: [] };
@@ -100,6 +100,6 @@ class login extends Component {
         );
     }
 }
-export default login
+export default listVideo
 
 
