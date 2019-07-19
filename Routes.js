@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Router, Scene } from 'react-native-router-flux';
-import TelaLoginCidadao from './src/components/telaLoginCidadao';
+import TelaListVideo from './src/components/telaListVideo';
 import TelaPlayVideo from './src/components/telaPLayVideo';
 
 
@@ -11,8 +11,8 @@ export default props => (
 
     <Scene key="root">
 
-      <Scene key="TelaLoginCidadao"
-        component={TelaLoginCidadao}
+      <Scene key="TelaListVideo"
+        component={TelaListVideo}
         hideNavBar={true} />
       <Scene key="TelaPlayVideo"
         component={TelaPlayVideo}
